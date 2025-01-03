@@ -32,12 +32,13 @@
           <app-themes *ngIf="commandItem.command.startsWith('themes')" [command]="commandItem.command"></app-themes>
           <app-education *ngIf="commandItem.command === 'education'"></app-education>
           <app-help *ngIf="commandItem.command === 'help'"></app-help>
+          <app-work *ngIf="commandItem.command === 'work'"></app-work> 
           <!-- <app-certificates *ngIf="commandItem.command === 'certificates'"></app-certificates>
           <app-interests *ngIf="commandItem.command === 'interests'"></app-interests>
           <app-projects *ngIf="commandItem.command === 'projects'"></app-projects>
           <app-skills *ngIf="commandItem.command === 'skills'"></app-skills>
           <app-welcome *ngIf="commandItem.command === 'welcome'"></app-welcome>
-          <app-work *ngIf="commandItem.command === 'work'"></app-work> -->
+          -->
   
           <div class="my-2" *ngIf="commandItem.command === 'gui'">
             Portfolio website is under development... Coming soon!

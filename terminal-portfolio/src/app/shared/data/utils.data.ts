@@ -1,7 +1,7 @@
 import { ECommandType } from '../models/commands.model';
 import { ETheme } from '../models/themes.model';
 
-export const email = 'anirbankar983@gmail.com';
+export const email = 'ktismail97@gmail.com.com';
 export const cvURL = 'https://1drv.ms/b/s!AkD34JHCNHdBg6csbgpvmbTLz81IUA?e=oOxFkn';
 export const linkedInProfileURL = 'https://www.linkedin.com/in/anirban-kar-498027130/';
 export const projects = [
@@ -54,49 +54,51 @@ export const projects = [
   }
 ];
 export const workEx = [
-  {
-    position: 'Senior Software Developer',
-    company: 'Locusnine Innovations - A Verto Company',
-    date: '08/2021 - Present',
-    tasks: [
-      `Developed and deployed serverless apps using AWS Lambda, S3 buckets, SQS, Cloudfront, and Route 53.`,
-      `Used AWS Codebuild and GitHub Actions to create a CI/CD pipeline.`,
-      `Developed a new wallet top-up flow in which users can top up their <br class="bg-screen"> multi-currency wallets using debit/credit cards.`,
-      `Built a new feature that allows users to generate and share payment links <br class="bg-screen"> with auto-reminders to their own customers in 11 different currencies.`,
-      `Collaborated with other developers to create a multi&hyphen;user solution that <br class="bg-screen"> allows businesses to onboard multiple clients as team members on our platform.`,
-      `Implementing user roles and permissions for administrators and clients in a scalable <br class="bg-screen"> and robust manner across the entire application.`
-    ]
-  },
-  {
-    position: 'Systems Engineer',
-    company: 'Infosys Ltd.',
-    date: '08/2019 - 08/2021',
-    tasks: [
-      `Built applications to classify emails and extract useful information using various <br class="bg-screen"> Machine Learning Algorithms and Deep Learning Techniques.`,
-      `Built RESTful APIs on Node.js using Express with token based authentication that served data to our Angular Front-End.`,
-      `Worked alongside other developers to build an user&hyphen;management web app from scratch using MEAN Stack.`
-    ]
-  },
-  {
-    position: 'Systems Engineer Trainee',
-    company: 'Infosys Ltd.',
-    date: '02/2019 - 05/2019',
-    tasks: [
-      `Got trained in .NET Core, Entity Framework, MS SQL Server.`,
-      `Got High Performer Tag after completing my training with score of 85%.`
-    ]
-  },
-  {
-    position: 'Intern',
-    company: 'Capgemini India Pvt. Ltd.',
-    date: '12/2017 - 01/2018',
-    tasks: [
-      `Worked on a cloud based machine learning project for predictive analysis where four different algorithms were devised.`,
-      `Learnt how Python Flask works as a micro web framework.`,
-      `Got an overview of machine learning algorithms and how they work.`
-    ]
-  }
-];
+    {
+      position: 'Software Engineer',
+      company: 'ZilMoney',
+      date: 'Oct 2021 - Present',
+      location: 'Manjeri, Kerala',
+      technologiesUsed: ['Angular (v13 to v17)', 'Ionic', 'RxJS', 'Signals', 'AG Grid', 'Tailwind CSS'],
+      tasks: [
+        'Onlinecheckwriter.com: Simple and secure way to ACH payments, direct deposits, or RTP.',
+        'Persona Verification System: Integrated a system for personal and ID verification with enhanced security and streamlined processes.',
+        'Bank Account Verification System: Integrated Yodlee and Plaid for instant bank account verification, ensuring secure and efficient processing.',
+        'Admin Panel Management: Developed and maintained Super Admin and Master Admin panels for efficient system control and user management.',
+        'White-label Configuration: Handled white-label configuration for custom branding and seamless integration across multiple platforms.',
+        'Contributions and Responsibilities: Contributed to various areas of development, integrated VGS for secure card payments, and played a key role in code reviews, merging, and deployment tasks.',
+        'ZilBank Website and Mobile App: Modern Digital Banking Platform For Business Owners.'
+      ]
+    },
+    {
+      position: 'Trainee Software Engineer',
+      company: 'Xtapps Software Solutions Pvt. Ltd.',
+      date: 'Mar 2021 - Sep 2021',
+      location: 'Kerala, India',
+      tasks: [
+        'Worked on developing music apps and the admin panel for Xtapps.'
+      ]
+    },
+    {
+      position: 'Angular Developer',
+      company: 'Quest Innovative Solutions',
+      date: 'Mar 2021 - Sep 2021',
+      location: 'Kadavanthra, Kochi, Kerala, India',
+      tasks: [
+        'Gained hands-on experience in software development, supporting the team in building and implementing applications, with a focus on Python Django.'
+      ]
+    },
+    {
+      position: 'App Developer',
+      company: 'Edu-HorM Software Services',
+      date: 'Mar 2020 - Sep 2020',
+      location: 'Ottapalam, Kerala, India',
+      tasks: [
+        'Gained experience in app and web development, building foundational skills in both areas.'
+      ]
+    }
+  ];
+  
 export const certificates = [
   {
     name: 'The Complete Node.js Developer Course',

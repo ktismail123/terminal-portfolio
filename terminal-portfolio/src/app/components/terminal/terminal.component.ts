@@ -19,6 +19,7 @@ import { ThemesComponent } from '../../commands/themes/themes.component';
 import { EducationComponent } from '../../commands/education/education.component';
 import { HelpComponent } from '../../commands/help/help.component';
 import { NotFoundComponent } from '../../commands/not-found/not-found.component';
+import { WorkComponent } from '../../commands/work/work.component';
 
 
 @Component({
@@ -28,7 +29,8 @@ import { NotFoundComponent } from '../../commands/not-found/not-found.component'
     ThemesComponent,
     EducationComponent,
     HelpComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    WorkComponent
   ],
   templateUrl: './terminal.component.html',
   styleUrl: './terminal.component.scss',
