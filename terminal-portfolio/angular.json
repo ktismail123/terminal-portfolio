@@ -32,7 +32,32 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "src/styles/dark.theme.css",
+                "bundleName": "dark",
+                "inject": false
+              },
+              {
+                "input": "src/styles/light.theme.css",
+                "bundleName": "light",
+                "inject": false
+              },
+              {
+                "input": "src/styles/ubuntu.theme.css",
+                "bundleName": "ubuntu",
+                "inject": false
+              },
+              {
+                "input": "src/styles/espresso.theme.css",
+                "bundleName": "espresso",
+                "inject": false
+              },
+              {
+                "input": "src/styles/paradise.theme.css",
+                "bundleName": "paradise",
+                "inject": false
+              }
             ],
             "scripts": []
           },
