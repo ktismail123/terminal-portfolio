@@ -16,13 +16,16 @@ import { NgFor, NgIf } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from '../../commands/about/about.component';
 import { ThemesComponent } from '../../commands/themes/themes.component';
+import { EducationComponent } from '../../commands/education/education.component';
 
 
 @Component({
   selector: 'app-terminal',
   imports: [NgIf, NgFor, FormsModule, 
     AboutComponent,
-    ThemesComponent],
+    ThemesComponent,
+    EducationComponent
+  ],
   templateUrl: './terminal.component.html',
   styleUrl: './terminal.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
