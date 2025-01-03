@@ -17,6 +17,8 @@ import { FormsModule } from '@angular/forms';
 import { AboutComponent } from '../../commands/about/about.component';
 import { ThemesComponent } from '../../commands/themes/themes.component';
 import { EducationComponent } from '../../commands/education/education.component';
+import { HelpComponent } from '../../commands/help/help.component';
+import { NotFoundComponent } from '../../commands/not-found/not-found.component';
 
 
 @Component({
@@ -24,7 +26,9 @@ import { EducationComponent } from '../../commands/education/education.component
   imports: [NgIf, NgFor, FormsModule, 
     AboutComponent,
     ThemesComponent,
-    EducationComponent
+    EducationComponent,
+    HelpComponent,
+    NotFoundComponent
   ],
   templateUrl: './terminal.component.html',
   styleUrl: './terminal.component.scss',

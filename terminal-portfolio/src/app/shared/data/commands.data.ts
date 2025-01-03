@@ -1,7 +1,7 @@
 import { ECommandType } from "../models/commands.model";
 
 export const availableCommands = [
-  { name: ECommandType.ABOUT, description: 'about Anirban kar', parent: null },
+  { name: ECommandType.ABOUT, description: 'about Muhammed Ismail', parent: null },
   { name: ECommandType.CERTIFICATES, description: 'my certifications', parent: null },
   { name: ECommandType.CLEAR, description: 'clear terminal', parent: null },
   { name: ECommandType.CV, description: 'download my curriculum vitae', parent: null },
