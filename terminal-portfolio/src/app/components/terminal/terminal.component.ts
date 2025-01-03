@@ -20,6 +20,7 @@ import { EducationComponent } from '../../commands/education/education.component
 import { HelpComponent } from '../../commands/help/help.component';
 import { NotFoundComponent } from '../../commands/not-found/not-found.component';
 import { WorkComponent } from '../../commands/work/work.component';
+import { WelcomeComponent } from '../../commands/welcome/welcome.component';
 
 
 @Component({
@@ -30,7 +31,8 @@ import { WorkComponent } from '../../commands/work/work.component';
     EducationComponent,
     HelpComponent,
     NotFoundComponent,
-    WorkComponent
+    WorkComponent,
+    WelcomeComponent
   ],
   templateUrl: './terminal.component.html',
   styleUrl: './terminal.component.scss',
